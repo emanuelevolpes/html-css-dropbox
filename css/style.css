@@ -20,6 +20,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container-nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 ul{
     list-style: none;
 }
@@ -38,7 +44,7 @@ Typo
 h1{
     text-align: center;
     padding: 100px 400px 0px 300px;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .text-first-main-section{
@@ -95,13 +101,13 @@ Main
 }
 
 .col-small{
-    width: 40%;
+    width: 30%;
     position: relative;
     top: 80px;
 }
 
 .col-big{
-    width: 60%;
+    width: 70%;
     position: relative;
     top: 80px;
 }
