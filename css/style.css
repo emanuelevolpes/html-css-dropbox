@@ -31,6 +31,30 @@ ul > li > a{
 
 /*
 -------
+Typo
+-------
+*/
+
+h1{
+    text-align: center;
+    padding: 100px 400px 0px 300px;
+    font-size: 50px;
+}
+
+.text-first-main-section{
+    padding-bottom: 35px;
+}
+
+.text2-first-main-section{
+    padding: 30px 0 50px 0;
+}
+
+.fa-solid.fa-arrow-down{
+    font-size: 80px;
+}
+
+/*
+-------
 Header
 -------
 */
@@ -59,6 +83,33 @@ nav{
 Main
 -------
 */
+
+.first-main-section{
+    background-color: #B3D0E7;
+}
+
+.content-first-main-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 380px 0px 330px;
+}
+
+.col-small{
+    width: 40%;
+    position: relative;
+    top: 80px;
+}
+
+.col-big{
+    width: 60%;
+    position: relative;
+    top: 80px;
+}
+
+.col-big > .jumbo{
+    width: 100%;
+    height: 100%;
+}
 
 /*
 -------
