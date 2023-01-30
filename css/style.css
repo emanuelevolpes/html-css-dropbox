@@ -154,15 +154,14 @@ Main
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 -25px;
 }
 
 .container-first-content,
 .container-second-content,
 .container-third-content{
     border: 1px solid black;
-    margin: 25px 25px 25px 0;
+    margin: 0 25px;
     height: 950px;
 }
 
@@ -211,14 +210,55 @@ Main
 
 .container-fourth-content{
     height: 220px;
-    max-width: 1000px;
-    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
     border: 1px solid lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
+.container-fourth-content > .col1{
+    width: 60%;
+}
+
+.container-fourth-content > .col2{
+    width: 40%;
+    text-align: end;
+}
+
+.row-third-main-section{
+    display: flex;
+    justify-content: space-between
+}
+
+.col-big{
+    width: 60%;
+}
+
+.col-small{
+    width: 40%;
+    padding: 60px 100px 0 50px;
+}
+
+.col-big > .partner{
+    width: 100%;
+    height: 100%;
+}
+
+.col-small > h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.button-partner{
+    background-color: white;
+    padding: 20px 15px;
+    margin-top: 35px;
+    font-size: 16px;
+}
 /*
 -------
 Footer
