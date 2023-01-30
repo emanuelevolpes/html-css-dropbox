@@ -4,7 +4,7 @@ Reset
 -------
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,33 +16,33 @@ Common
 -------
 */
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-nav{
+.container-nav {
     position: fixed;
     z-index: 1;
     width: 100%;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-ul > li > a{
+ul>li>a {
     text-decoration: none;
     color: #1E1919;
 }
 
-.button-first{
+.button-first {
     background-color: #0061ff;
     color: white;
     padding: 10px 15px;
     border: none;
 }
 
-.small-box{
+.small-box {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -53,22 +53,23 @@ Typo
 -------
 */
 
-h1{
+h1 {
     text-align: center;
     padding: 180px 400px 0px 300px;
     font-size: 77px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    ;
 }
 
-.text-first-main-section{
+.text-first-main-section {
     padding-bottom: 35px;
 }
 
-.text2-first-main-section{
+.text2-first-main-section {
     padding: 30px 0 50px 0;
 }
 
-.fa-solid.fa-arrow-down{
+.fa-solid.fa-arrow-down {
     font-size: 80px;
 }
 
@@ -78,19 +79,19 @@ Header
 -------
 */
 
-.container-nav{
+.container-nav {
     height: 80px;
     background-color: white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
 }
 
-.left-nav > ul,
-.right-nav > ul{
+.left-nav>ul,
+.right-nav>ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,51 +107,51 @@ Main
 -------
 */
 
-.first-main-section{
+.first-main-section {
     background-color: #B3D0E7;
 }
 
-.content-first-main-section{
+.content-first-main-section {
     display: flex;
     justify-content: space-between;
     padding: 0 380px 0 330px;
 }
 
-.col-small{
+.col-small {
     width: 30%;
     position: relative;
     top: 80px;
 }
 
-.col-big{
+.col-big {
     width: 70%;
     position: relative;
     top: 80px;
 }
 
-.col-big > .jumbo{
+.col-big>.jumbo {
     width: 100%;
     height: 100%;
 }
 
-.second-main-section{
+.second-main-section {
     margin-top: 165px;
 }
 
-.title-second-main-section > h2{
+.title-second-main-section>h2 {
     padding-bottom: 70px;
     font-size: 40px;
 }
 
-.radio-button{
+.radio-button {
     padding-bottom: 50px;
 }
 
-.radio1{
+.radio1 {
     padding-right: 50px;
 }
 
-.row-second-main-section{
+.row-second-main-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,106 +160,150 @@ Main
 
 .container-first-content,
 .container-second-content,
-.container-third-content{
-    border: 1px solid black;
+.container-third-content {
+    border: 1px solid lightgray;
     margin: 0 25px;
     height: 950px;
 }
 
-.container-first-content > .user{
-    border-bottom: 1px solid black;
+.container-first-content>.user {
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 8px 0;
 }
 
-.container-first-content > div > h3{
+.container-first-content>div>h3 {
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.container-first-content > strong{
+.container-first-content>strong {
     padding-bottom: 20px;
 }
 
-.container-first-content > p{
+.container-first-content>p {
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
-.container-first-content > ul > li{
+.container-first-content>ul>li {
     padding-bottom: 30px;
 }
 
-.button-first.first-container{
+.button-first.first-container {
     font-size: 17px;
     padding: 10px 30px;
     margin-bottom: 35px;
 }
 
-.container-first-content{
-    padding-left: 30px;
-} 
+.container-first-content {
+    padding: 0 30px 0 30px;
+}
 
-.container-first-content > hr{
+.container-first-content>hr {
     width: 50px;
     margin: 40px 0 60px 0;
 }
 
-.container-first-content > div > h4{
+.container-first-content>div>h4 {
     padding-bottom: 38px;
 }
 
-.container-fourth-content{
-    height: 220px;
-    padding-left: 30px;
-    padding-right: 30px;
+.container-fourth-content {
     border: 1px solid lightgray;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 100px;
     margin-top: 50px;
 }
 
-.container-fourth-content > .col1{
-    width: 60%;
-}
-
-.container-fourth-content > .col2{
-    width: 40%;
-    text-align: end;
-}
-
-.row-third-main-section{
+.row-third-main-section,
+.row-fourth-content {
     display: flex;
     justify-content: space-between
 }
 
-.col-big{
+.row-fourth-content{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.col1{
+    width: 70%;
+}
+
+.col2{
+    width: 30%;
+    padding-top: 30px;
+    text-align: end;
+}
+
+.team{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.col1 > h3{
+    padding: 40px 0 30px 0;
+}
+
+.col1 > p{
+    padding: 55px 0 30px 0;
+}
+
+.col-big {
     width: 60%;
 }
 
-.col-small{
+.col-small {
     width: 40%;
     padding: 60px 100px 0 50px;
 }
 
-.col-big > .partner{
+.col-big>.partner {
     width: 100%;
     height: 100%;
 }
 
-.col-small > h3{
+.col-small>h3 {
     margin-bottom: 20px;
     font-size: 25px;
 }
 
-.button-partner{
+.button-partner {
     background-color: white;
     padding: 20px 15px;
     margin-top: 35px;
     font-size: 16px;
 }
+
+section.Dropbox-Business {
+    margin-top: 220px;
+}
+
+.row-dropbox-business {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-dropbox-business {
+    width: calc(100% / 3);
+    padding: 50px;
+}
+
+.business-feature-switching-tools,
+.business-feature-send-files-it,
+.business-feature-coordinate-it,
+.business-feature-integrations-it,
+.business-feature-multi-device,
+.business-feature-security {
+    width: 100%;
+}
+
+.content-dropbox-business h3 {
+    margin: 15px 0 40px 0;
+}
+
 /*
 -------
 Footer
