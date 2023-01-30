@@ -35,6 +35,13 @@ ul > li > a{
     color: #1E1919;
 }
 
+.button-first{
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
 /*
 -------
 Typo
