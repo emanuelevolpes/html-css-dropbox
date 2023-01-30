@@ -42,6 +42,11 @@ ul > li > a{
     border: none;
 }
 
+.small-box{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /*
 -------
 Typo
@@ -50,8 +55,9 @@ Typo
 
 h1{
     text-align: center;
-    padding: 100px 400px 0px 300px;
-    font-size: 80px;
+    padding: 180px 400px 0px 300px;
+    font-size: 77px;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 .text-first-main-section{
@@ -92,6 +98,8 @@ nav{
     gap: 40px;
 }
 
+
+
 /*
 -------
 Main
@@ -105,7 +113,7 @@ Main
 .content-first-main-section{
     display: flex;
     justify-content: space-between;
-    padding: 55px 380px 0px 330px;
+    padding: 0 380px 0 330px;
 }
 
 .col-small{
@@ -129,11 +137,17 @@ Main
     margin-top: 165px;
 }
 
-.title-second-main-section,
+.title-second-main-section > h2{
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+
 .radio-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 50px;
+}
+
+.radio1{
+    padding-right: 50px;
 }
 
 .row-second-main-section{
@@ -146,10 +160,63 @@ Main
 
 .container-first-content,
 .container-second-content,
-.container-third-content,
-.container-fourth-content{
+.container-third-content{
     border: 1px solid black;
-    margin: 25px;
+    margin: 25px 25px 25px 0;
+    height: 950px;
+}
+
+.container-first-content > .user{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.container-first-content > div > h3{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.container-first-content > strong{
+    padding-bottom: 20px;
+}
+
+.container-first-content > p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.container-first-content > ul > li{
+    padding-bottom: 30px;
+}
+
+.button-first.first-container{
+    font-size: 17px;
+    padding: 10px 30px;
+    margin-bottom: 35px;
+}
+
+.container-first-content{
+    padding-left: 30px;
+} 
+
+.container-first-content > hr{
+    width: 50px;
+    margin: 40px 0 60px 0;
+}
+
+.container-first-content > div > h4{
+    padding-bottom: 38px;
+}
+
+.container-fourth-content{
+    height: 220px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*
