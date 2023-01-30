@@ -172,40 +172,40 @@ Main
     padding: 8px 0;
 }
 
-.container-first-content>div>h3 {
+.padding-container-first-content>div>h3 {
     padding-top: 40px;
     padding-bottom: 30px;
 }
 
-.container-first-content>strong {
+.padding-container-first-content>strong {
     padding-bottom: 20px;
 }
 
-.container-first-content>p {
+.padding-container-first-content>p {
     padding-top: 20px;
     padding-bottom: 30px;
 }
 
-.container-first-content>ul>li {
+.padding-container-first-content>ul>li {
     padding-bottom: 30px;
 }
 
 .button-first.first-container {
-    font-size: 17px;
+    font-size: 15px;
     padding: 10px 30px;
     margin-bottom: 35px;
 }
 
-.container-first-content {
+.padding-container-first-content {
     padding: 0 30px 0 30px;
 }
 
-.container-first-content>hr {
+.padding-container-first-content>hr {
     width: 50px;
     margin: 40px 0 60px 0;
 }
 
-.container-first-content>div>h4 {
+.padding-container-first-content>div>h4 {
     padding-bottom: 38px;
 }
 
