@@ -304,6 +304,18 @@ section.Dropbox-Business {
     margin: 15px 0 40px 0;
 }
 
+.team-utilizzano{
+    margin-top: 160px;
+}
+
+.team-utilizzano > h2{
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+.use-dropbox-business .small-box{
+    margin-bottom: 150px;
+}
 /*
 -------
 Footer
