@@ -54,11 +54,12 @@ Typo
 */
 
 h1 {
-    text-align: center;
-    padding: 180px 400px 0px 300px;
+    padding-top: 200px;
     font-size: 77px;
     font-family: 'Open Sans', sans-serif;
-    ;
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .text-first-main-section {
@@ -66,11 +67,11 @@ h1 {
 }
 
 .text2-first-main-section {
-    padding: 30px 0 50px 0;
+    padding: 30px 0 30px 0;
 }
 
 .fa-solid.fa-arrow-down {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 /*
@@ -113,8 +114,9 @@ Main
 
 .content-first-main-section {
     display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
     justify-content: space-between;
-    padding: 0 380px 0 330px;
 }
 
 .col-small {
@@ -130,8 +132,7 @@ Main
 }
 
 .col-big>.jumbo {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
 .second-main-section {
@@ -253,15 +254,14 @@ Main
 .col-big {
     width: 60%;
 }
-
+/*
 .col-small {
     width: 40%;
     padding: 60px 100px 0 50px;
-}
+}*/
 
 .col-big>.partner {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
 }
 
 .col-small>h3 {
@@ -278,6 +278,7 @@ Main
 
 section.Dropbox-Business {
     margin-top: 220px;
+    
 }
 
 .row-dropbox-business {
@@ -316,6 +317,83 @@ section.Dropbox-Business {
 .use-dropbox-business .small-box{
     margin-bottom: 150px;
 }
+
+.container-partner{
+    display: flex;
+}
+
+.box-partner{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.box-partner .logo-partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+.box-partner .logo-partner img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.logo-partner.arizona{
+    background-color: #61092B;
+}
+
+.logo-partner.channel{
+    background-color: #ffd830;
+}
+
+.logo-partner.designit{
+    background-color: #a2d39b;
+}
+
+.logo-partner.hearst-corp{
+    background-color: #b4d0e7;
+}
+
+.logo-partner.florida{
+    background-color: #0093ce;
+}
+
+.logo-partner.topps{
+    background-color: #ff1c1c;
+}
+
+.logo-partner.world{
+    background-color: #d5001f;
+}
+
+.logo-partner.lonely{
+    background-color: #0d2481;
+}
+
+.box-partner.text{
+    background-color: #f5f5f5;
+    position: relative;
+    padding: 30px;
+}
+
+.box-partner.text > img{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 50%;
+}
+
+.box-partner.text hr{
+    color: gray;
+    width: 70px;
+    height: 2px;
+    margin-top: 200px;
+}
+
 /*
 -------
 Footer
