@@ -394,6 +394,67 @@ section.Dropbox-Business {
     margin-top: 200px;
 }
 
+#bottom-partner{
+    background-color: #b4d0e7;
+    margin-bottom: 160px;
+    padding: 135px 0;
+}
+
+.container-row-partner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row-partner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-prova-gratuita{
+    background-color: white;
+    padding: 10px 50px;
+    border: none;
+}
+
+.col-big-partner{
+    width: 60%;
+    color: #61082b;
+    font-size: 32px;
+}
+
+.col-small-partner{
+    width: 40%;
+    text-align: end;
+}
+
+#faq{
+    margin-bottom: 150px;
+}
+
+.container-faq{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-faq h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.content-faq div .faq1,
+.container-faq div .faq2{
+    border-bottom: 1px solid black;
+    padding: 45px 0px;
+}
+
+.faq3{
+    padding: 45px 0;
+}
+
+.content-faq div i{
+    padding-left: 350px;
+}
+
 /*
 -------
 Footer
