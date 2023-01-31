@@ -460,3 +460,40 @@ section.Dropbox-Business {
 Footer
 -------
 */
+
+footer{
+    background-color: black;
+}
+
+.row-footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 105px 0;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.list-footer h3{
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.list-footer li{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.list-footer hr{
+    margin: 120px 0 50px 0 ;
+    width: 70%;
+    height: 1px;
+}
+
+.language{
+    color: #999999;
+}
+
+.language .fa-solid{
+    margin: 0 5px 0 5px;
+}
